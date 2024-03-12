@@ -1,0 +1,28 @@
+.picture-slide {
+    margin: 0 auto;
+    max-width: 1520px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: relative;
+}
+
+.picture-slide img {
+    width: 108%;
+    margin-left: -43px;
+}
+
+@media(max-width:376px) {
+    .picture-slide {
+        padding-top: 52px;
+    }
+    .picture-slide img {
+        width: 327px;
+        margin-left: 16px;
+    }
+    .picture-slide {
+        max-width: 375px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
