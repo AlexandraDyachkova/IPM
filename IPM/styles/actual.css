@@ -95,7 +95,8 @@
     margin-top: 44px;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .actual {
         max-width: 376px;
         padding-top: 34px;
@@ -156,4 +157,4 @@
         height: 28.79px;
         margin-top: 3px;
     }
-}
+} */

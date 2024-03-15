@@ -73,7 +73,8 @@
     opacity: 0.3;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .timing {
         max-width: 376px;
         padding-left: 0;
@@ -107,7 +108,7 @@
         margin-top: -54px;
     }
     .timing_text {
-        width: 375px;
+        width: 350px;
         flex-direction: column;
         margin-top: 19px;
     }
@@ -119,4 +120,4 @@
         width: 203px;
         margin-left: 64px;
     }
-}
+} */

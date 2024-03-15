@@ -71,14 +71,15 @@
     font-weight: 600;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .about__title {
         font-size: 20px;
         margin-left: 40px;
     }
     .about {
         padding-left: 0;
-        margin-top: 94px;
+        margin-top: 71px;
         max-width: 376px;
         padding-right: 0;
     }
@@ -111,4 +112,4 @@
     .about__all {
         margin-left: 53px;
     }
-}
+} */

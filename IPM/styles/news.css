@@ -104,7 +104,8 @@
     margin-left: 159px;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .news h1 {
         font-size: 20px;
         margin-top: 21px;
@@ -112,7 +113,6 @@
     }
     .news_cards {
         margin-left: -12px;
-        /* margin-right: 195px; */
         display: flex;
         margin-top: 22px;
         flex-direction: column;
@@ -171,4 +171,4 @@
         padding-top: 38px;
         padding-bottom: 140px;
     }
-}
+} */

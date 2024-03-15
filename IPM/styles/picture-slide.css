@@ -12,7 +12,8 @@
     margin-left: -43px;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .picture-slide {
         padding-top: 52px;
     }
@@ -25,4 +26,4 @@
         padding-left: 0;
         padding-right: 0;
     }
-}
+} */

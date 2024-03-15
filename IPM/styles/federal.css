@@ -93,9 +93,11 @@
     color: rgb(209, 2, 9);
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .federal {
         max-width: 376px;
+        padding-top: 55px;
     }
     .federal_title {
         margin-left: 20px;
@@ -108,7 +110,6 @@
         flex-wrap: nowrap;
         margin-left: 2px;
         margin-top: -10px;
-        /* margin-right: -14px; */
     }
     .federal_item h1 {
         font-size: 25px;
@@ -156,4 +157,4 @@
         margin-left: -17px;
         font-size: 13px;
     }
-}
+} */

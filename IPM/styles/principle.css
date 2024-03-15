@@ -110,24 +110,26 @@
     font-weight: 700;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .principle {
         max-width: 376px;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 55px;
     }
     .principle__title {
-        width: 0;
+        width: 284px;
     }
     .principle__title h1 {
         font-size: 18px;
         line-height: 23px;
         margin-top: 41px;
-        margin-left: 260px;
+        margin-left: 42px;
     }
     .principle__title img {
         width: 121px;
-        margin-left: 574px;
+        margin-left: 293px;
         margin-top: -60px;
     }
     .num {
@@ -161,4 +163,4 @@
         padding: 41px;
         margin-left: 17px;
     }
-}
+} */

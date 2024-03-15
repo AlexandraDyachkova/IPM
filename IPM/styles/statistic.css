@@ -52,16 +52,16 @@
     margin-top: -186px;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .statistics_header {
         font-size: 35px;
-    }
-    .statistics_text {
+    } */
+
+
+/* .statistics_text {
         font-size: 15px;
         width: 229px;
-    }
-    .statistic__wrapper {
-        margin-left: 53px;
     }
     .figure img {
         width: 40%;
@@ -71,11 +71,28 @@
     }
     .statistics {
         padding-right: 0;
-        padding-left: 0;
+        padding-left: 51px;
         max-width: 376px;
     }
     .statistics_row {
         flex-direction: column;
         gap: 0px;
+    } */
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .header {
+        padding-left: 200px;
+    }
+    .preview {
+        padding-left: 9px;
+    }
+    .main_title {
+        font-size: 10px;
+    }
+    .faw__img {
+        width: 30px;
+    }
+    .statistics {
+        padding-left: 45px;
     }
 }

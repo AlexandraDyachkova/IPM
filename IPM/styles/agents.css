@@ -24,7 +24,8 @@
     height: auto;
 }
 
-@media(max-width:376px) {
+
+/* @media(max-width:376px) {
     .agents {
         max-width: 376px;
         padding-left: 0;
@@ -41,4 +42,4 @@
         width: 359px;
         margin-top: -4px;
     }
-}
+} */
