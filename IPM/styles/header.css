@@ -108,6 +108,13 @@
     /* width: 85.94vh; */
     left: 0;
     top: 0;
+    width: 100%;
+    position: static;
+    overflow: hidden;
+}
+
+.header__text {
+    overflow: hidden;
 }
 
 .header__logo img {
