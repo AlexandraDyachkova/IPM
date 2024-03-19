@@ -126,16 +126,39 @@
     }
 } */
 
-@media (max-width: 868px) {
+@media (max-width: 1200px) {
     .header {
-        flex-direction: row;
-        align-items: flex-start;
+        max-width: 970px;
+    }
+    .preview {
+        max-width: 970px;
+    }
+    .main__image {
+        width: 90%;
+    }
+    .faw__img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .preview,
+    .main,
+    .main__image,
+    .faw__img {
+        max-width: 85%;
+    }
+    .header {
+        flex-direction: column;
+        display: flex;
+        max-width: 750px;
     }
     .header__logo {
         margin-right: auto;
     }
-    .header__logo img {
-        width: 75%;
+    .main__subtitle {
+        width: fit-content;
+        margin-top: 5px;
     }
     .menu__btn {
         display: block;
@@ -160,96 +183,68 @@
     .contacts {
         margin-left: 0;
     }
-    .nav__arrow {
+    .preview {
+        max-width: 750px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__image {
+        width: 70%;
+        margin-left: 0;
+    }
+    .faw__img {
+        max-width: 70%;
+        margin-top: 10px;
+    }
+    .main__title {
+        font-size: 1em;
+        width: fit-content;
+    }
+    .main__desc {
+        max-width: 80%;
+        width: fit-content;
+    }
+    .preview__arrow {
+        width: 30%;
+        left: calc(100% + -187px);
+    }
+}
+
+@media (max-width:767px) {
+    .preview,
+    .main,
+    .main__image,
+    .faw__img {
+        max-width: 70%;
+        font-size: 80%;
+    }
+    .main {
+        flex-direction: column;
+        max-width: none;
+    }
+    .main__desc {
+        width: 90%;
+        width: fit-content;
+    }
+    .main__image {
+        width: 60%;
+    }
+    .faw__img {
+        max-width: none;
+    }
+    .preview__arrow {
         display: none;
     }
 }
 
-@media (max-width: 375px) {
-    .menu__btn {
-        margin-left: auto;
-    }
-}
-
-@media(max-width:992px) {
-    .main {
-        flex-direction: row;
-        /* Изменяем направление расположения элементов на горизонтальное */
-        align-items: center;
-        /* Центрируем элементы по вертикали */
-        margin-left: 0;
-        /* Убираем левый отступ */
-    }
-    .main__image {
-        margin-right: 20px;
-        /* Возвращаем правый отступ */
-    }
+@media(min-width:767px) {
     .faw__img {
-        width: 300px;
-        /* Задаем фиксированную ширину для изображения */
-        margin-top: 0;
-        /* Убираем верхний отступ */
-        margin-left: 0;
-        /* Убираем левый отступ */
-    }
-    .main__text {
-        margin-top: 1vh;
-        /* Убираем верхний отступ */
-        margin-left: 0;
-        /* Убираем левый отступ */
         max-width: none;
-        /* Убираем максимальную ширину */
-    }
-}
-
-@media(max-width:600px) {
-    .main {
-        flex-direction: column;
-        /* Изменяем направление расположения элементов на вертикальное */
-        align-items: center;
-        /* Центрируем элементы по вертикали */
-    }
-}
-
-@media (max-width:428px) {
-    .main {
-        flex-direction: column;
-        /* Изменяем направление расположения элементов на вертикальное */
-        align-items: center;
-        /* Центрируем элементы по вертикали */
-    }
-    .faw__img {
-        margin-top: 0;
-        /* Убираем верхний отступ */
-        margin-left: 0;
-        /* Убираем левый отступ */
-        order: -1;
-        /* Перемещаем блок наверх */
-        width: 100%;
-        /* Занимает всю доступную ширину */
-    }
-    .main__text {
-        margin-top: 20px;
-        /* Отступ между блоками */
-        margin-left: 0;
-        /* Убираем левый отступ */
-    }
-    .main__desc {
-        margin-top: 168px;
-        /* Увеличиваем отступ, чтобы избежать наложения линии */
     }
     .preview__line {
-        top: calc(100% + 68px);
-        /* Перемещаем линию под текст */
-        left: calc(50% + 4.5em);
-        /* Положение линии рядом с текстом */
-        transform: translateY(-50%);
-    }
-}
-
-@media (max-width: 350px) {
-    .main__desc {
-        margin-top: 248px;
-        /* Увеличиваем отступ еще больше при максимальном масштабе */
+        display: none;
     }
 }
