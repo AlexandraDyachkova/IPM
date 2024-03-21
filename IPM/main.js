@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const menuToggle = document.getElementById("menu__toggle");
-    const headerList = document.querySelector(".header__list");
+document.addEventListener('DOMContentLoaded', function() {
+    var menuToggle = document.getElementById('menu__toggle');
+    var header = document.querySelector('.header');
 
-    menuToggle.addEventListener("change", function() {
+    menuToggle.addEventListener('change', function() {
         if (this.checked) {
-            headerList.style.display = "flex";
+            header.classList.add('menu-open');
         } else {
-            headerList.style.display = "none";
+            header.classList.remove('menu-open');
         }
     });
 });

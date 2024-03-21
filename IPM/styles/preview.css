@@ -32,28 +32,36 @@
 .main__text {
     position: relative;
     margin-top: 1%;
-    max-width: 50%;
-    padding-right: 0;
+    /* max-width: 50%; */
+    /* padding-right: 6px; */
     margin-left: 1%;
-    font-size: 100%;
+    /* font-size: 82%; */
+    margin-right: 59px;
 }
 
 .main__title {
-    font-size: 2.4em;
+    /* font-size: 2.4em; */
+    font-size: 242%;
+    max-width: 805px;
 }
 
 .main__subtitle {
     font-weight: 700;
-    margin-top: 1px;
     color: brown;
-    font-size: 2.4em;
+    /* font-size: 2.4em; */
     /* max-width: 68vw; */
+    font-size: 242%;
+    max-width: 805px;
+    margin-top: -22px;
 }
 
 .main__desc {
-    font-size: 1.2em;
-    width: 50%;
-    margin-top: 10%;
+    /* font-size: 1.2em; */
+    /* width: 50%; */
+    margin-top: 7%;
+    /* max-width: 74vw; */
+    max-width: 329px;
+    font-size: 112%;
 }
 
 .line {
@@ -81,14 +89,14 @@
     top: 90%;
     left: calc(100% + -45%);
     transform: translateY(-50%);
-    width: 40%;
-    height: 30%;
+    width: 171px;
+    height: 179px;
 }
 
 .preview__line {
     position: absolute;
     top: 50%;
-    left: calc(100% + 70px);
+    left: calc(100% + 6%);
     transform: translateY(-50%);
     width: 1px;
     height: 100%;
