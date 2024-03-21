@@ -3,7 +3,7 @@
     margin: 0 auto;
     max-width: 1000px;
     padding-left: 105px;
-    padding-right: 992.65px;
+    padding-right: 993px;
     padding-top: 100px;
 }
 
@@ -69,7 +69,7 @@
 
 .word {
     font-weight: 700;
-    line-height: 51.3px;
+    line-height: 51px;
     letter-spacing: -0.64px;
     color: rgb(38, 37, 42);
     white-space: nowrap;

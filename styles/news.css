@@ -1,10 +1,7 @@
 .news {
     margin: 0 auto;
     max-width: 1600px;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 78.59px;
-    padding-bottom: 287px;
+    padding: 100px 79px 287px 100px;
 }
 
 .news h1 {
@@ -53,7 +50,7 @@
 .info_flag {
     background-color: rgb(38, 37, 42);
     ;
-    padding: 55px 0px;
+    padding: 55px 0;
     border-top-left-radius: 30px;
     width: 279px;
 }
@@ -65,7 +62,7 @@
     left: 23px;
     top: 18px;
     font-size: 25px;
-    letter-spacing: 1.28px;
+    letter-spacing: 1px;
 }
 
 .news_card_icon {

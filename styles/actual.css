@@ -46,11 +46,10 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 0px rgba(146, 146, 146, 0.2);
-    background: rgb(42, 41, 45);
+    box-shadow: 0 0 30px 0 rgba(146, 146, 146, 0.2);
     width: 335px;
     height: 483px;
-    background-color: rgb(42, 41, 45);
+    background: rgb(42, 41, 45);
 }
 
 .card_icon {
@@ -75,8 +74,7 @@
 }
 
 .card_descr {
-    margin: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px;
     width: 280px;
     font-size: 20px;
 }
@@ -90,8 +88,8 @@
     font-size: 20px;
     border-radius: 5px;
     background: rgb(222, 25, 25);
-    width: 286.37px;
-    height: 53.79px;
+    width: 286px;
+    height: 54px;
     margin-top: 44px;
 }
 
