@@ -46,10 +46,6 @@
         top: 100%;
         left: 0;
         background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        left: 0;
-        background-color: #fff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 999;
         padding: 33px;
@@ -93,7 +89,7 @@
     .header__item {
         margin-bottom: 10px;
     }
-    .vacance,
+    .vacancy,
     .contacts {
         margin-left: 0;
     }
@@ -106,7 +102,6 @@
     }
     .main__image {
         width: 80%;
-        margin-left: 0;
         padding: 0 20px;
         margin: 0 auto;
     }
@@ -153,7 +148,7 @@
     }
     .main__text {
         max-width: 84%;
-        margin: 0%;
+        margin: 0;
         padding-left: 0;
     }
     .preview__line {
@@ -193,7 +188,7 @@
     .main__text {
         font-size: 75%;
         max-width: 84%;
-        margin: 0%;
+        margin: 0;
         padding-left: 9px;
     }
     .main__desc {

@@ -77,7 +77,7 @@ canvas {
 }
 
 .arrow2 {
-    background-image: url(../img/block_preview/arrow2.svg);
+    background-image: url('./img/block_preview/arrow2.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 7%;

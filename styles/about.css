@@ -1,9 +1,8 @@
 .about {
-    margin: 0 auto;
     max-width: 1465px;
     padding-left: 126px;
     padding-right: 255px;
-    margin-top: 117px;
+    margin: 117px auto 0;
 }
 
 .about__all {
@@ -50,7 +49,7 @@
     position: absolute;
     width: 2%;
     height: 269px;
-    margin-left: 32.5px;
+    margin-left: 33px;
     margin-top: -222px;
 }
 
