@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var menuToggle = document.getElementById('menu__toggle');
-    var header = document.querySelector('.header');
+    const menuToggle = document.getElementById('menu__toggle');
+    const headerNav = document.querySelector('.header__nav');
 
     menuToggle.addEventListener('change', function() {
         if (this.checked) {
-            header.classList.add('menu-open');
+            headerNav.style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // Запрещаем скроллинг основного контента
         } else {
-            header.classList.remove('menu-open');
+            headerNav.style.display = 'none';
+            document.body.style.overflow = ''; // Разрешаем скроллинг основного контента
         }
     });
 });

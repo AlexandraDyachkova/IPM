@@ -1,19 +1,19 @@
 .header {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-    padding: 2.05vh;
-    left: 0;
-    top: 0;
-    max-width: 1820px;
-    position: static;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header__logo {
+    width: 234px;
 }
 
 .header__logo img {
-    width: 80%;
-    margin-top: 0.2vmax;
+    height: 56px;
 }
 
 #menu__toggle {
@@ -29,31 +29,42 @@
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #000;
+    background-color: rgb(57, 53, 53);
     margin-bottom: 5px;
-}
-
-.header__item {
-    margin-right: -1.46vmax;
 }
 
 .menu-open .header__nav {
     display: block;
 }
 
-.header__list {
-    display: flex;
-    list-style-type: none;
-    gap: 10vmax;
-    font-weight: 600;
-    font-size: 1.25em;
-    margin-top: 33px;
-    margin-left: 117px;
+.header__nav {
+    margin-left: -29px;
+    color: rgb(57, 53, 53);
+    font-size: 16px;
+    margin-top: 23px;
 }
 
-.header__link {
+.header__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 106px;
+}
+
+.header__item a {
+    font-size: 19px;
     color: rgb(57, 53, 53);
-    text-decoration: none;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.items {
+    font-weight: 600;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 96px;
 }
 
 .arrow {
@@ -67,33 +78,24 @@
 
 .tel {
     font-weight: 400;
+    color: rgb(57, 53, 53);
+    font-size: 19px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
-.vacance,
-.contacts {
-    margin-left: -0.5vmax;
-}
-
-@media (max-width: 992px) {
-    .header {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    .header__logo {
-        margin-right: auto;
-    }
+@media (max-width: 1000px) {
     .menu__btn {
         display: block;
         margin-top: 23px;
-        margin-left: auto;
     }
     .nav__arrow {
         display: none;
     }
-    .header__list {
+    /* .header__list {
         display: flex;
         flex-direction: column;
         margin-left: 0;
         gap: 2vmax;
-    }
+    } */
 }

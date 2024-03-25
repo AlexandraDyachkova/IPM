@@ -15,7 +15,8 @@ footer {
     margin-top: 17px;
 }
 
-.container {
+
+/* .container {
     margin-left: 258px;
     margin-top: 6px;
 }
@@ -24,7 +25,7 @@ footer {
     margin-left: -360px;
     width: 40%;
     margin-bottom: -88px;
-}
+} */
 
 .footer-logo {
     margin-top: 30px;
@@ -131,11 +132,11 @@ footer {
         margin-left: -287px;
         width: 191px;
     }
-    .container {
+    .container2 {
         margin-left: -15px;
         margin-top: 0px;
     }
-    .container img {
+    .container2 img {
         width: 90px;
         margin-bottom: -35px;
         margin-left: -288px;

@@ -43,111 +43,117 @@
 <!-- Навигация-->
 
 <body>
-    <header class="header">
-        <a href="#" class="header__logo">
-            <img src="./img/block_header/logo.svg" alt="logo">
-        </a>
-        <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo logo">
+                <img src="./img/block_header/logo.svg" alt="logo">
+            </a>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </label> </div>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">О НАС</a>
-                    <div class="nav__arrow arrow"></div>
-                </li>
-                <li class="header__item"><a href="#" class="header__link vacance">ВАКАНСИИ</a></li>
-                <li class="header__item"><a href="#" class="header__link contacts">КОНТАКТЫ</a></li>
-                <li class="header__item"><a href="tel:+74957965737" class="header__link tel">+7 495 796 57 37</a></li>
-            </ul>
-        </nav>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="items">О НАС</a>
+                        <div class="nav__arrow arrow"></div>
+                    </li>
+                    <li class="header__item"><a href="#" class="items">ВАКАНСИИ</a></li>
+                    <li class="header__item"><a href="#" class="items">КОНТАКТЫ</a></li>
+                    <li class="header__item"><a href="tel:+74957965737" class="tel">+7 495 796 57 37</a></li>
+                </ul>
+            </nav>
 
-    </header>
+        </header>
 
-    <!--Главный блок, начало-->
-    <section>
-        <div class="preview">
-            <div class="main">
-                <div class="main__image">
-                    <div class="faw">
-                        <img src="./img/block_preview/faw2.png" class="faw__img" alt="faw">
+        <!--Главный блок, начало-->
+        <section>
+            <div class="preview">
+                <div class="main">
+                    <div class="main__image">
+                        <div class="faw">
+                            <img src="./img/block_preview/faw2.png" class="faw__img" alt="faw">
+                        </div>
+                    </div>
+
+                    <div class="main__text">
+                        <h1 class="main__title">Безопасные и своевременные доставки с нашей логистической компанией:</h1>
+                        <p class="main__subtitle">максимальная эффективность для вашего бизнеса</p>
+                        <p class="main__desc">Мы стремимся к тому, чтобы наши клиенты могли полностью доверять нам свои грузы, зная, что они будут доставлены вовремя и в целости.</p>
+                        <div class="preview__arrow arrow2"></div>
+                        <div class="preview__arrow arrow3"></div>
+                        <div class="preview__line line"></div>
                     </div>
                 </div>
-
-                <div class="main__text">
-                    <h1 class="main__title">Безопасные и своевременные доставки с нашей логистической компанией:</h1>
-                    <p class="main__subtitle">максимальная эффективность для вашего бизнеса</p>
-                    <p class="main__desc">Мы стремимся к тому, чтобы наши клиенты могли полностью доверять нам свои грузы, зная, что они будут доставлены вовремя и в целости.</p>
-                    <div class="preview__arrow arrow2"></div>
-                    <div class="preview__arrow arrow3"></div>
-                    <div class="preview__line line"></div>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <!--О компании-->
-    <section class="about">
-        <h1 class="about__title">О компании</h1>
-        <div class="about__all">
-            <div class="about__text">
-                <h3 class="about__desc">
-                    <span class="bold">IPMLogistic</span> начала свой путь <span class="bold">14 июля 2017 года</span>, когда была приобретена первая газель, и с того дня остается верной <span class="highlight">своим принципам</span>. </h3>
-                <p class="about__desc2">Наша компания регулярно обновляет и модернизирует свой автопарк, чтобы гарантировать надежную и безопасную доставку грузов и контролировать каждый этап доставки.</p>
-                <div class="about__line line2"></div>
+        <!--О компании-->
+        <section class="about">
+            <h1 class="about__title">О компании</h1>
+            <div class="about__all">
+                <div class="about__text">
+                    <h3 class="about__desc">
+                        <span class="bold">IPMLogistic</span> начала свой путь <span class="bold">14 июля 2017 года</span>, когда была приобретена первая газель, и с того дня остается верной <span class="highlight">своим принципам</span>. </h3>
+                    <p class="about__desc2">Наша компания регулярно обновляет и модернизирует свой автопарк, чтобы гарантировать надежную и безопасную доставку грузов и контролировать каждый этап доставки.</p>
+                    <div class="about__line line2"></div>
+                </div>
+                <div class="about__image">
+                    <img src="./img/block_about/faw2.png" alt="faw">
+                </div>
             </div>
-            <div class="about__image">
-                <img src="./img/block_about/faw2.png" alt="faw">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Статистика-->
-    <!-- <section class="statistics">
-        <div class="statistic__wrapper">
-            <div class="statistics_row">
-                <div class="statistics_item">
-                    <h1 class="statistics_header">700+</h1>
-                    <p class="statistics_text">интернациональных компаний уже работают с нами</p>
+        <!-- Статистика-->
+        <section class="statistics">
+            <div class="statistic__wrapper">
+                <div class="statistics_row">
+                    <div class="statistics_item">
+                        <h1 class="statistics_header">700+</h1>
+                        <p class="statistics_text">интернациональных компаний уже работают с нами</p>
+                    </div>
+                    <div class="statistics_item">
+                        <h1 class="statistics_header">50</h1>
+                        <p class="statistics_text">филиалов во всех крупных городах России</p>
+                    </div>
+                    <div class="statistics_item">
+                        <h1 class="statistics_header">750+</h1>
+                        <p class="statistics_text">фур ежедневно</p>
+                    </div>
                 </div>
-                <div class="statistics_item">
-                    <h1 class="statistics_header">50</h1>
-                    <p class="statistics_text">филиалов во всех крупных городах России</p>
-                </div>
-                <div class="statistics_item">
-                    <h1 class="statistics_header">750+</h1>
-                    <p class="statistics_text">фур ежедневно</p>
-                </div>
-            </div>
-            <div class="statistics_row">
-                <div class="statistics_item">
-                    <h1 class="statistics_header">16 000</h1>
-                    <p class="statistics_text">рейсов совершили</p>
-                </div>
-                <div class="statistics_item">
-                    <h1 class="statistics_header">35 000</h1>
-                    <p class="statistics_text">грузов доставили</p>
-                </div>
-            </div>
-            <div class="figure">
-                <img src="./img/block_statistics/triangle.png" alt="triangle">
-            </div>
-        </div>
-    </section>
- -->
+                <div class="statistics_row">
+                    <div class="statistics_item">
+                        <h1 class="statistics_header">16 000</h1>
+                        <p class="statistics_text">рейсов совершили</p>
+                    </div>
+                    <div class="statistics_item">
+                        <h1 class="statistics_header">35 000</h1>
+                        <p class="statistics_text">грузов доставили</p>
+                    </div>
+                    <div class="figure">
 
-    <!-- Слайдер-->
-    <!-- <section class="picture-slide">
+                        <img src="./img/block_statistics/triangle.png" alt="triangle">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Слайдер-->
+        <!-- <section class="picture-slide">
         <img src="./img/block_picture-slide/road.png" alt="faw">
     </section> -->
 
 
-    <!-- Наши принципы-->
-    <!-- <section class="principle">
+        <!-- Наши принципы-->
+        <!-- <section class="principle">
         <div class="principle__title">
             <div class="principle_line line3"></div>
             <h1>Продуманные решения для вашей логистики: <span class="highlight2">доверьтесь опыту и надежности</span></h1>
@@ -192,8 +198,8 @@
     </section> -->
 
 
-    <!-- Строгие сроки доставки-->
-    <!-- <section class="timing">
+        <!-- Строгие сроки доставки-->
+        <!-- <section class="timing">
 
         <h1 class="timing_title">Строгие сроки доставки</h1>
         <div class="timing_triangle">
@@ -208,8 +214,8 @@
     </section> -->
 
 
-    <!-- Федеральное покрытие-->
-    <!-- <section class="federal">
+        <!-- Федеральное покрытие-->
+        <!-- <section class="federal">
         <h1 class="federal_title">Федеральное покрытие</h1>
         <div class="federal_wrapper wrapper">
             <div class="federal_item">
@@ -242,15 +248,15 @@
     </section> -->
 
 
-    <!-- Нам доверили свои грузы-->
-    <!-- <section class="agents">
+        <!-- Нам доверили свои грузы-->
+        <!-- <section class="agents">
         <h1>Нам <span class="highlight8">доверили</span> свои грузы</h1>
         <img src="./img/block_agents/logotypes.jpg" alt="logotypes">
     </section> -->
 
 
-    <!-- Актуальное-->
-    <!-- <section class="actual">
+        <!-- Актуальное-->
+        <!-- <section class="actual">
         <h1><span class="highlight9">Актуальное</span> сейчас</h1>
         <div class="actual_cards">
             <div class="cards_item">
@@ -296,8 +302,8 @@
     </section> -->
 
 
-    <!-- Новости-->
-    <!-- <section class="news">
+        <!-- Новости-->
+        <!-- <section class="news">
         <h1>Новости</h1>
         <div class="news_cards">
             <div class="news_item">
@@ -355,13 +361,13 @@
         <img class="line_slider" src="./img/block_news/line.png" alt="slider">
     </section> -->
 
-    <!-- Подвал-->
-    <!-- <footer>
+        <!-- Подвал-->
+        <!-- <footer>
         <div class="copyright">
             <p>© 2024г. ИП Милосердов Аркадий Викторович</p>
         </div>
 
-        <div class="container">
+        <div class="container2">
             <a href="#">
                 <img src="./img/block_footer/LOGO.svg" alt="logo" class="footer_logo">
             </a>
@@ -396,7 +402,7 @@
 
     </footer>
     <script type="text/javascript" src="./main.js"></script> -->
-
+    </div>
 </body>
 
 </html>
